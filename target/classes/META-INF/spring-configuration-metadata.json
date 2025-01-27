@@ -1,0 +1,81 @@
+{
+  "groups": [
+    {
+      "name": "",
+      "type": "io.github.talelin.latticy.common.configuration.CodeMessageConfiguration",
+      "sourceType": "io.github.talelin.latticy.common.configuration.CodeMessageConfiguration"
+    },
+    {
+      "name": "lin.file",
+      "type": "io.github.talelin.latticy.module.file.FileProperties",
+      "sourceType": "io.github.talelin.latticy.module.file.FileProperties"
+    },
+    {
+      "name": "login-captcha",
+      "type": "io.github.talelin.latticy.common.configuration.LoginCaptchaProperties",
+      "sourceType": "io.github.talelin.latticy.common.configuration.LoginCaptchaProperties"
+    }
+  ],
+  "properties": [
+    {
+      "name": "code-message",
+      "type": "java.util.Map<java.lang.Integer,java.lang.String>",
+      "sourceType": "io.github.talelin.latticy.common.configuration.CodeMessageConfiguration"
+    },
+    {
+      "name": "lin.file.domain",
+      "type": "java.lang.String",
+      "sourceType": "io.github.talelin.latticy.module.file.FileProperties"
+    },
+    {
+      "name": "lin.file.exclude",
+      "type": "java.lang.String[]",
+      "sourceType": "io.github.talelin.latticy.module.file.FileProperties"
+    },
+    {
+      "name": "lin.file.include",
+      "type": "java.lang.String[]",
+      "sourceType": "io.github.talelin.latticy.module.file.FileProperties"
+    },
+    {
+      "name": "lin.file.nums",
+      "type": "java.lang.Integer",
+      "sourceType": "io.github.talelin.latticy.module.file.FileProperties"
+    },
+    {
+      "name": "lin.file.serve-path",
+      "type": "java.lang.String",
+      "description": "文件存储路径",
+      "sourceType": "io.github.talelin.latticy.module.file.FileProperties"
+    },
+    {
+      "name": "lin.file.single-limit",
+      "type": "java.lang.String",
+      "sourceType": "io.github.talelin.latticy.module.file.FileProperties"
+    },
+    {
+      "name": "lin.file.store-dir",
+      "type": "java.lang.String",
+      "sourceType": "io.github.talelin.latticy.module.file.FileProperties"
+    },
+    {
+      "name": "login-captcha.enabled",
+      "type": "java.lang.Boolean",
+      "description": "启用验证码",
+      "sourceType": "io.github.talelin.latticy.common.configuration.LoginCaptchaProperties"
+    },
+    {
+      "name": "login-captcha.iv",
+      "type": "java.lang.String",
+      "description": "aes 偏移量",
+      "sourceType": "io.github.talelin.latticy.common.configuration.LoginCaptchaProperties"
+    },
+    {
+      "name": "login-captcha.secret",
+      "type": "java.lang.String",
+      "description": "aes 密钥",
+      "sourceType": "io.github.talelin.latticy.common.configuration.LoginCaptchaProperties"
+    }
+  ],
+  "hints": []
+}
