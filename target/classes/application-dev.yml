@@ -2,7 +2,7 @@
 
 server:
   # 服务端口
-  port: 5002
+  port: 5003
 
 
 spring:
